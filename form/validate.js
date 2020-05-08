@@ -3,6 +3,7 @@ const username = document.getElementById('username')
 const email = document.getElementById('email')
 const password = document.getElementById('password')
 const password2 = document.getElementById('password2')
+const checkboxList = document.querySelectorAll('input[data-checkbox]')
 
 //Show input erro message
 function showErro(input, message) {
@@ -20,6 +21,23 @@ function showSucces(input) {
 }
 
 // Add event listers
+checkboxList.forEach(function (checkbox) {
+    checkbox.addEventListener('click', function (e) {
+        if (e.target.checked) {
+            e.target.parentElement.classList = 'checked'
+        } else {
+            e.target.parentElement.classList = ''
+        }
+    })
+})
+// termsCheckbox.addEventListener('click', function (e) {
+//     if (termsCheckbox.checked) {
+//         termsCheckbox.parentElement.classList = 'checked'
+//     } else {
+
+//         termsCheckbox.parentElement.classList = ''
+//     }
+// })
 form.addEventListener('submit', function (e) {
     e.preventDefault()
 
