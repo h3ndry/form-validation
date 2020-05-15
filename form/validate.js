@@ -1,8 +1,4 @@
-const form = document.getElementById('form')
-const username = document.getElementById('username')
-const email = document.getElementById('email')
-const password = document.getElementById('password')
-const password2 = document.getElementById('password2')
+const inputList = document.querySelectorAll('input[data-input]')
 const checkboxList = document.querySelectorAll('input[data-checkbox]')
 
 //Show input erro message
@@ -20,6 +16,14 @@ function showSucces(input) {
     formControl.classList = 'form-control success'
 }
 
+function checkRequired(inputArry) {
+    //implementation of check required  
+    inputArry.forEach(input => {
+        if (input.value === '') {
+            showErro(input, `${input.dataset.input} is required`)
+        }
+    })
+}
 // Add event listers
 checkboxList.forEach(function (checkbox) {
     checkbox.addEventListener('click', function (e) {
@@ -30,22 +34,15 @@ checkboxList.forEach(function (checkbox) {
         }
     })
 })
-// termsCheckbox.addEventListener('click', function (e) {
-//     if (termsCheckbox.checked) {
-//         termsCheckbox.parentElement.classList = 'checked'
-//     } else {
 
-//         termsCheckbox.parentElement.classList = ''
-//     }
-// })
+inputList.forEach(input => {
+    input.addEventListener('blur', e => {
+        checkRequired([e.target])
+    })
+})
+//check if required for each input  
 form.addEventListener('submit', function (e) {
     e.preventDefault()
-
-    if (username.value === '') {
-        showErro(username, 'user name is required')
-    } else {
-        showSucces(username)
-    }
 
     //Regular expresion for email   
     function isVlaidEmail(email) {
@@ -53,27 +50,5 @@ form.addEventListener('submit', function (e) {
         return re.test(String(email).toLowerCase());
     }
 
-    //Check for email   
-    if (email.value === '') {
-        showErro(email, 'email is required')
-    } else if (!isVlaidEmail(email.value)) {
-
-        showErro(email, 'Please provide a valid email')
-    } else {
-        showSucces(email)
-    }
-
-    //Cheack for password
-    if (password.value === '') {
-        showErro(password, 'password is required')
-    } else {
-        showSucces(password)
-    }
-
-    //check for password 2
-    if (password2.value === '') {
-        showErro(password2, 'password2 is required')
-    } else {
-        showSucces(password2)
-    }
+    checkRequired(inputList)
 })
