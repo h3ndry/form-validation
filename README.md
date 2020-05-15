@@ -1,11 +1,13 @@
 #Form Validation
 
-Form validation is a mini project that I built while taking a udemy [course](https://www.udemy.com/course/web-projects-with-vanilla-javascript) by [Brad Travise](). This project validate user input from the client side before it can be sent to the server. First of it check if username is provided and if provide does it meet the standards. When the user provide email, the email get tested to see if it is a real email. And lastly it check if password is strong enough to be accepted. The project also have clean user interface that alert you of if the input is not accepted and tell you the reason
+# Overview
+Form validation is a mini project that I built while taking a udemy [course](https://www.udemy.com/course/web-projects-with-vanilla-javascript) by [Brad Travise](https://twitter.com/traversymedia).
+This project validate user input from the client side before it can be send to the server. First of it check if username is provided and if it is provided, it check if is a valid username. When the user provide email, the email get tested to see if it is a real email. And lastly it check if password is strong enough to be accepted. The project also have clean user interface that let a user know if the input is not valid and why is not valid
 
-#The Design
+## The Design
 Although the project is part of  the Udemy course I decide to do a different design from the course. This made me  spent more time than I wish I should to this project. The design is from daily Ui, I just customised it to fit the goal of this project
 
-#Preview 
+## Preview 
 <Screen shot>
 
 #Preview
