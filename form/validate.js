@@ -21,6 +21,9 @@ function checkRequired(inputArry) {
     inputArry.forEach(input => {
         if (input.value === '') {
             showErro(input, `${input.dataset.input} is required`)
+        } else {
+            console.log('wassup with you')
+            showSucces
         }
     })
 }
