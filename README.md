@@ -5,7 +5,7 @@ Form validation is a mini project that I built while taking a udemy [course](htt
 This project validate user input from the client side before it can be send to the server. First of it check if username is provided and if it is provided, it check if is a valid username. When the user provide email, the email get tested to see if it is a real email. And lastly it check if password is strong enough to be accepted. The project also have clean user interface that let a user know if the input is not valid and why is not valid
 
 ##  Preview 
-<Screen shot>
+![alt text][screenshot]
 
 ##  The Design
 Although the project is part of  the Udemy course I decide to do a different design from the course. This made me  spent more time than I wish I should to this project. The design is from daily Ui, I just customised it to fit the goal of this project
@@ -57,3 +57,5 @@ The process of building the projects was nice and easy since I was following a t
 
 This project is free to use
 Feel free to use this project for a commercial and none commercial projects
+
+[screenshot]: https://github.com/henkhodryza/form-validation/blob/master/screenshots/screenshot.png

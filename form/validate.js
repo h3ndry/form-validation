@@ -23,7 +23,7 @@ function checkRequired(inputArry) {
             showErro(input, `${input.dataset.input} is required`)
         } else {
             console.log('wassup with you')
-            showSucces
+            showSucces(input)
         }
     })
 }
