@@ -36,11 +36,11 @@ form-validate/
 This project is mainly built with web Technology while using an open source text editor called visual studio code running on windows operating system
 
 
-| Technilody  | Fetures  | What is used for |
-|-------------|:--------:|-----------------:|
-| HTML5       | `form`   | display the infor|
-| CSS3        | `css var`| testing 123      |
-| JavaScript  | `ES6`    | testing 456      |
+| Technology  | Fetures                         | What is used for                      |
+|-------------|:-------------------------------:|--------------------------------------:|
+| HTML5       | `form` `data-*` `label` `span`  | To display the form in the screen     |
+| CSS3        | `css variable`                  | To style the form to look good        |
+| JavaScript  | `ES6` `DOM API`                 | To validate the input from the form   |
 
 
 
@@ -48,9 +48,12 @@ This project is mainly built with web Technology while using an open source text
 The process of building the projects was nice and easy since I was following a totorial. The project from a totorial didn't have checkbox, and I decided to add checkbox as most online form these days require you to accept terms and conditions and the design from daily UI came with checkbox, I didn't wanna just omit that. It happen that HTML doesn't allow you to target the checkbox input element to style it. I checked on stack overflow on how to style checkbox and they directed me to this blog which done a good job explaining how to style checkbox.  I also wanted to style the focuse state of the checkbox and it turns out the checkbox doesn't have focus state
 
  ###    what I leaned from
-  ..*   Styling checkbox input
-  ..*   Manipulating the DOM base on state of application
-  ..*   Best way to structure JavaScript code
+  1. Styling checkbox input
+  2. Manipulating the DOM base on state of application
+  3. Best way to structure JavaScript code
+
+
+#   Licence 
 
 This project is free to use
 Feel free to use this project for a commercial and none commercial projects
