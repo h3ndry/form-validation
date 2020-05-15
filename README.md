@@ -1,26 +1,34 @@
-#Form Validation
+# Form Validation
 
-# Overview
+##  Overview
 Form validation is a mini project that I built while taking a udemy [course](https://www.udemy.com/course/web-projects-with-vanilla-javascript) by [Brad Travise](https://twitter.com/traversymedia).
 This project validate user input from the client side before it can be send to the server. First of it check if username is provided and if it is provided, it check if is a valid username. When the user provide email, the email get tested to see if it is a real email. And lastly it check if password is strong enough to be accepted. The project also have clean user interface that let a user know if the input is not valid and why is not valid
 
-## The Design
-Although the project is part of  the Udemy course I decide to do a different design from the course. This made me  spent more time than I wish I should to this project. The design is from daily Ui, I just customised it to fit the goal of this project
-
-## Preview 
+##  Preview 
 <Screen shot>
 
-#Preview
-You can preview the project here on here,
+##  The Design
+Although the project is part of  the Udemy course I decide to do a different design from the course. This made me  spent more time than I wish I should to this project. The design is from daily Ui, I just customised it to fit the goal of this project
 
-Folder structure
 
+##  Preview
+You can preview the project here on [here](),
+
+##  Folder structure
+
+```
 form-validate/
-  form/
-  Fonts/
-  Screenshot/
-  ReadMe.md
-
+|   form/
+|   |   form.html
+|   |   style.css
+|   |   validate.js
+|   |fonts/
+|   |   sans-serif.tff
+|   Screenshot/
+|   |   screenshot.png
+|   
+|   README.md
+```
 
 Technology
  The project is mainly built with web Technology and And open source text editor visual studio running on windows operating system
