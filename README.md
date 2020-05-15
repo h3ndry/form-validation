@@ -22,32 +22,35 @@ form-validate/
 |   |   form.html
 |   |   style.css
 |   |   validate.js
+|
 |   |fonts/
 |   |   sans-serif.tff
+|
 |   Screenshot/
 |   |   screenshot.png
 |   
 |   README.md
 ```
 
-Technology
- The project is mainly built with web Technology and And open source text editor visual studio running on windows operating system
-
-<Table>
-HTML5
-CSS3
-JavaScript
-
-</Table>
+##  Technology
+This project is mainly built with web Technology while using an open source text editor called visual studio code running on windows operating system
 
 
-#Challenge
+| Technilody  | Fetures  | What is used for |
+|-------------|:--------:|-----------------:|
+| HTML5       | `form`   | display the infor|
+| CSS3        | `css var`| testing 123      |
+| JavaScript  | `ES6`    | testing 456      |
+
+
+
+##  Challenge
 The process of building the projects was nice and easy since I was following a totorial. The project from a totorial didn't have checkbox, and I decided to add checkbox as most online form these days require you to accept terms and conditions and the design from daily UI came with checkbox, I didn't wanna just omit that. It happen that HTML doesn't allow you to target the checkbox input element to style it. I checked on stack overflow on how to style checkbox and they directed me to this blog which done a good job explaining how to style checkbox.  I also wanted to style the focuse state of the checkbox and it turns out the checkbox doesn't have focus state
 
- #what I leaned from
-  *Styling checkbox input
-  *Manipulating the DOM base on state of application
-  *Best way to structure JavaScript code
+ ###    what I leaned from
+  ..*   Styling checkbox input
+  ..*   Manipulating the DOM base on state of application
+  ..*   Best way to structure JavaScript code
 
 This project is free to use
 Feel free to use this project for a commercial and none commercial projects
